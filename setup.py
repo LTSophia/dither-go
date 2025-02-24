@@ -74,6 +74,6 @@ setup(
         "build_ext": CustomBuildExt,
     },
     ext_modules=[
-        Extension("dither_go", sources=["./dither_go", "github.com/tfuxu/dither-gopy"])
+        Extension("dither_go", sources=["./dither_go", "github.com/tfuxu/dither-go"])
     ],
 )
